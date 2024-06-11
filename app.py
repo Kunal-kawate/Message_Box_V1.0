@@ -115,7 +115,7 @@ Welcome to my special corner of the web! 🌟 Here, friends, family, and well-wi
     # ----------------end------------------------------------
 
     # Text input at the bottom
-    user_input = st.text_input("Write anything!", key="input", placeholder="Type your message here...")
+    user_input = st.text_input("Write anything! | wait 5 sec. to save msg", key="input", placeholder="Type your message here...")
 
     col1, col2 = st.columns([1, 5])
     
