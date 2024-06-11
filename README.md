@@ -2,6 +2,8 @@
 
 Welcome to Message_Box_V1.0, a Python web application developed using Streamlit, imaplib, and the email module. This project allows users to share their thoughts, messages, and stories in a unique way by sending them to a designated email address. The messages are then displayed on the web application by reading from the recipient's email inbox.
 
+![Alt text](https://github.com/Kunal-kawate/Message_Box_V1.0/blob/main/ScreenShot.png)
+
 ## Features
 
 - **Streamlit for GUI**: Utilizes the Streamlit framework to provide a simple and intuitive user interface.
