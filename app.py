@@ -25,14 +25,17 @@ headers = {
 # -----------------------------------------------
 
 def display_message_in_box(message,random_num_Text):
-    if random_num_Text == 0:
-        st.info(message)
-    elif random_num_Text == 1:
-        st.success(message)
-    elif random_num_Text == 2:
-        st.warning(message)
-    elif random_num_Text == 3:
-        st.error(message)
+    if "gand" in message:
+        st.info('error found in message...')
+    else:
+        if random_num_Text == 0:
+            st.info(message)
+        elif random_num_Text == 1:
+            st.success(message)
+        elif random_num_Text == 2:
+            st.warning(message)
+        elif random_num_Text == 3:
+            st.error(message)
 
 
 def read_existed_mails():
