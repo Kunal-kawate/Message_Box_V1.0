@@ -37,10 +37,10 @@ To run this project locally, follow these steps:
 3. **Set Up Email Configuration**:
     Create a file named `config.py` and add your email configuration:
     ```python
-    SENDER_EMAIL = 'your_sender_email@gmail.com'
-    SENDER_PASSWORD = 'your_sender_email_password'
-    RECEIVER_EMAIL = 'your_receiver_email@gmail.com'
-    RECEIVER_PASSWORD = 'your_receiver_email_password'
+    'email01' : st.secrets['EMAIL01'],
+    'email02' : st.secrets['EMAIL02'],
+    'pass01' : st.secrets['PASS01'],
+    'pass02' : st.secrets['PASS02'],
     ```
 
 4. **Run the Application**:
